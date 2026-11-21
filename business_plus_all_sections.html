@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Business Plus | بزنس بلس</title>
+<style>
+:root{--gold:#c99a3b;--ink:#171717;--cream:#faf8f3;--muted:#777;--line:#eee6d8}
+*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.7}
+header{background:#111;color:#fff;padding:17px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+.brand{font-size:22px;font-weight:800}.brand b{color:#e0b65f}nav a{color:#eee;text-decoration:none;margin:0 9px;font-size:14px}
+.hero{padding:58px 6%;background:linear-gradient(120deg,#111,#302719);color:white;text-align:center}.gold{color:#e0b65f}
+.hero h1{font-size:clamp(30px,5vw,48px);margin:8px 0}.hero p{color:#ddd;max-width:680px;margin:0 auto 22px}
+.btn{display:inline-block;background:var(--gold);color:#17130b;padding:11px 20px;border-radius:9px;text-decoration:none;font-weight:bold;border:0;cursor:pointer;font:inherit}
+.btn.dark{background:#222;color:white}.btn.line{background:transparent;border:1px solid var(--gold);color:#e7c77e}
+section{padding:40px 6%}.head{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+h2{margin:0;font-size:26px}.muted,small{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:14px}
+.card{background:white;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 5px 18px #24190008}
+.icon{font-size:28px}.card h3{margin:7px 0 3px}.card p{margin:0;color:var(--muted);font-size:14px}
+.filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:18px 0}
+input,select,textarea{width:100%;padding:12px;border:1px solid #ddd3c2;border-radius:9px;font:inherit;background:white}
+.shop{overflow:hidden;padding:0}.shop .cover{height:92px;background:linear-gradient(120deg,#292116,#c99a3b);display:flex;align-items:center;padding:15px;color:white;font-size:35px}
+.shop .body{padding:16px}.pill{display:inline-block;background:#f8f0df;color:#76551b;padding:3px 9px;border-radius:20px;font-size:12px;margin:5px 3px 0 0}
+.shop .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.shop .actions a{font-size:13px;padding:8px 12px}
+.product{display:flex;justify-content:space-between;gap:10px;border-top:1px solid #eee;padding:9px 0;font-size:14px}
+.callout{background:#191919;color:white;border-radius:16px;padding:25px;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+form{display:grid;gap:12px;max-width:680px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+label{font-size:14px;font-weight:bold}.notice{display:none;background:#fff7e6;border:1px solid #e6cc91;padding:12px;border-radius:9px;color:#624715}
+footer{background:#111;color:#ccc;padding:22px 6%;font-size:13px}
+@media(max-width:650px){.filters,.formgrid{grid-template-columns:1fr}header{justify-content:center}nav{text-align:center}.hero{padding:45px 6%}}
+</style></head>
+<body>
+<header><div class="brand">BUSINESS <b>PLUS</b> <span style="font-size:14px;color:#ddd">| بزنس بلس</span></div>
+<nav><a href="#categories">الأقسام</a><a href="#find">اكتشف المشاريع</a><a href="#join">أضف مشروعك</a></nav></header>
+<div class="hero"><div class="gold">دليلك العربي للمشاريع والخدمات</div><h1>مشروعك يستحق أن يُكتشف</h1>
+<p>صفحة مصغّرة لمشروعك، تعرض صورك وخدماتك وأسعارك وموقعك، وتتيح للعملاء التواصل معك مباشرة.</p>
+<a class="btn" href="#find">اكتشف المشاريع</a> <a class="btn line" href="#join">أنشئ صفحة مشروعك</a></div>
+
+<section id="categories"><div class="head"><div><h2>تصفّح الأقسام</h2><div class="muted">مشاريع صغيرة، متاجر، ومقدمو خدمات</div></div></div>
+<div class="grid">
+<div class="card"><div class="icon">🍰</div><h3>طبخ ومأكولات منزلية</h3><p>أطباق، حلويات، ضيافة وتموين</p></div>
+<div class="card"><div class="icon">💄</div><h3>الجمال والمناسبات</h3><p>ميكب أرتست، شعر، أظافر</p></div>
+<div class="card"><div class="icon">👗</div><h3>الأزياء والفساتين</h3><p>بيع، تأجير، إكسسوارات</p></div>
+<div class="card"><div class="icon">🎨</div><h3>التصميم والإبداع</h3><p>تصميم، تصوير، صناعة محتوى</p></div>
+<div class="card"><div class="icon">💻</div><h3>الخدمات الرقمية</h3><p>تسويق، برمجة، إدارة حسابات</p></div>
+<div class="card"><div class="icon">🛠️</div><h3>الخدمات المهنية</h3><p>خدمات منزلية ومهنية متنوعة</p></div>
+</div></section>
+
+<section id="find"><div class="head"><div><h2>اكتشف المشاريع</h2><div class="muted">ابحث حسب النشاط والمدينة</div></div></div>
+<div class="filters"><input id="q" placeholder="ابحث: كيك، مكياج، فساتين..."><select id="city"><option value="">كل المدن</option><option>الدمام</option><option>الرياض</option><option>جدة</option><option>الخبر</option></select><select id="cat"><option value="">كل الأقسام</option><option>طبخ منزلي</option><option>جمال ومناسبات</option><option>أزياء وفساتين</option><option>التصميم والإبداع</option><option>الخدمات الرقمية</option><option>الخدمات المهنية</option></select></div>
+<div class="grid" id="shops">
+<article class="card shop" data-city="الدمام" data-cat="طبخ منزلي" data-search="مذاق البيت طبخ منزلي كيك حلويات أكل"><div class="cover">🍰</div><div class="body"><h3>مذاق البيت</h3><p>طبخ منزلي وحلويات · الدمام</p><span class="pill">طبخ منزلي</span><div class="product"><span>كيكة شوكولاتة</span><b>— السعر يضاف لاحقاً</b></div><div class="product"><span>بوكس ضيافة</span><b>— السعر يضاف لاحقاً</b></div><div class="actions"><a class="btn dark" href="#join">صفحة نموذجية</a></div></div></article>
+<article class="card shop" data-city="الرياض" data-cat="جمال ومناسبات" data-search="لمسة جمال ميكب ارتست مكياج مناسبات"><div class="cover">💄</div><div class="body"><h3>لمسة جمال</h3><p>ميكب أرتست · الرياض</p><span class="pill">جمال ومناسبات</span><div class="product"><span>مكياج مناسبات</span><b>— السعر يضاف لاحقاً</b></div><div class="product"><span>مكياج ناعم</span><b>— السعر يضاف لاحقاً</b></div><div class="actions"><a class="btn dark" href="#join">صفحة نموذجية</a></div></div></article>
+<article class="card shop" data-city="جدة" data-cat="أزياء وفساتين" data-search="دولاب أنيق فساتين بيع تأجير مقاسات"><div class="cover">👗</div><div class="body"><h3>دولاب أنيق</h3><p>فساتين للبيع والتأجير · جدة</p><span class="pill">أزياء وفساتين</span><div class="product"><span>فستان سهرة</span><b>— السعر يضاف لاحقاً</b></div><div class="product"><span>فستان مناسبات</span><b>— السعر يضاف لاحقاً</b></div><div class="actions"><a class="btn dark" href="#join">صفحة نموذجية</a></div></div></article>
+</div><p id="empty" class="muted" style="display:none">ما لقينا نتائج مطابقة. جرّب تغيير البحث أو المدينة.</p>
+<small>الأسماء والبطاقات أعلاه أمثلة توضيحية وليست مشاريع حقيقية.</small></section>
+
+<section id="join"><div class="callout"><div><h2>افتح صفحة مشروعك في بزنس بلس</h2><p style="margin:3px 0;color:#ddd">عرّف الناس بمشروعك ودعهم يتواصلون معك مباشرة.</p></div><span style="font-size:35px">🌟</span></div>
+<div style="height:20px"></div><form id="form">
+<div id="notice" class="notice">هذه معاينة فقط: لم تُرسل بياناتك ولم تُحفظ. سنربط التسجيل بقاعدة بيانات آمنة قبل استقبال المشاريع فعلياً.</div>
+<div class="formgrid"><div><label>اسم المشروع</label><input required placeholder="مثال: مذاق البيت"></div><div><label>نوع النشاط</label><select required><option value="">اختاري</option><option>طبخ منزلي</option><option>جمال ومناسبات</option><option>أزياء وفساتين</option><option>التصميم والإبداع</option><option>الخدمات الرقمية</option><option>الخدمات المهنية</option></select></div>
+<div><label>الدولة</label><input required placeholder="مثال: السعودية"></div><div><label>المدينة</label><input required placeholder="مثال: الدمام"></div>
+<div><label>رابط واتساب أو وسيلة التواصل</label><input placeholder="رابط واتساب أو حساب عام"></div><div><label>رابط صور أو حساب المشروع</label><input placeholder="رابط إنستغرام أو موقع"></div></div>
+<div><label>وصف مختصر للمشروع</label><textarea rows="3" placeholder="اكتبي ماذا تقدمين وما الذي يميز مشروعك"></textarea></div>
+<button class="btn" type="submit">معاينة صفحة مشروعي</button>
+<small>لا تدخلي بيانات شخصية حساسة. قبل الإطلاق سنضيف مراجعة للمشاريع والتحقق من المتطلبات النظامية بحسب النشاط والدولة.</small>
+</form></section>
+<footer>© BUSINESS PLUS — بزنس بلس · كل المشاريع في مكان واحد</footer>
+<script>
+const q=document.getElementById('q'),city=document.getElementById('city'),cat=document.getElementById('cat');
+function filter(){let n=0;document.querySelectorAll('.shop').forEach(s=>{let ok=(!q.value||s.dataset.search.includes(q.value.trim().toLowerCase()))&&(!city.value||s.dataset.city===city.value)&&(!cat.value||s.dataset.cat===cat.value);s.style.display=ok?'':'none';if(ok)n++});document.getElementById('empty').style.display=n?'none':'block'}
+[q,city,cat].forEach(x=>x.addEventListener('input',filter));
+document.getElementById('form').addEventListener('submit',e=>{e.preventDefault();document.getElementById('notice').style.display='block';});
+</script></body></html>
